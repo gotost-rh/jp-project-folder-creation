@@ -1,0 +1,21 @@
+{
+  "name": "jp-auto-project-folder-creation",
+  "version": "2.0.0",
+  "description": "Automated project folder creation for Japan PM Tools",
+  "main": "Code.js",
+  "scripts": {
+    "test": "node tests/run-tests.js",
+    "test:watch": "nodemon --watch Code.js --watch tests --exec npm test"
+  },
+  "keywords": [
+    "google-apps-script",
+    "automation",
+    "drive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
